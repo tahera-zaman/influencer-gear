@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@300&family=Playfair+Display:wght@600&family=Poppins:wght@400;500;700&family=Roboto:wght@500&family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display:wght@600&family=Poppins:wght@400;500;700&family=Roboto:wght@500&family=Vidaloka&display=swap');
 body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A ;
-    margin: 0px;
-    padding: 0;
-
 }
 .name{
     margin-top:87px;
@@ -51,7 +51,12 @@ a, .fa-arrow-right{
 .top-img{
     width: 475px;
     height: 475px;
+    transition: transform 2s; 
     /* margin-right: 165px; */
+}
+
+.top-img:hover{
+    transform: scale(1.25) rotate(30deg);
 }
 .top-img img{
     width: 440px;
@@ -139,6 +144,7 @@ line-height: 150%;
 }
 .section-3>h2{
     text-align: center;
+
 }
 .bonus-section{
     margin: 120px;
@@ -196,7 +202,7 @@ footer{
 
 /* Responsive  */
 
-@media only screen and (max-width:480px){
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .top-section{
         width: 90vw;
         display: grid;
@@ -220,7 +226,7 @@ footer{
         flex-direction: column;
     }
 }
-@media only screen and (max-width:768px){
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .top-section{
         width: 90vw;
         display: grid;
