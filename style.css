@@ -130,23 +130,44 @@ line-height: 150%;
 .see-more>.fa-arrow-right{
     color:#E02C6D ;
 }
+.section-3{
+    padding: 20px;
+    background-color: rgb(243, 243, 243);
+}
 .section-3>h2{
     text-align: center;
     margin: 0px;
 }
 .bonus-section{
-    border: 2px solid #E02C6D;
     height: 400px;
     margin: 120px;
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
+    align-items: center;
 }
-.bonus-section1, .bonus-section2, .bonus-section3{
-    margin: 50px;
-    border: 2px dashed #E02C6D;
-    height: 300px;
-    width: 800px;
+.bonus{
+    background-color: white;
+    height:300px ;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 8px #adabab
+}
+.bonus i{
+    border-radius: 50px;
+    font-size: 50px;
+    padding: 25px 20px ;
+}
+.icon1{
+    background-color: rgb(212, 104, 255);
+}
+.icon2{
+    background-color: rgb(253, 87, 87);
+}
+.icon3{
+    background-color: rgb(104, 212, 255);
 }
 footer{
     color: white;
