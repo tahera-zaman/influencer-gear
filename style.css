@@ -1,4 +1,5 @@
 /* ------fonts------ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@300&family=Playfair+Display:wght@600&family=Poppins:wght@400;500;700&family=Roboto:wght@500&family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display:wght@600&family=Poppins:wght@400;500;700&family=Roboto:wght@500&family=Vidaloka&display=swap');
 body{
     /* margin: 120px; */
@@ -13,9 +14,10 @@ body{
     height: 52.2px;
 }
 .top-section{
+    margin: 120px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-between ;
 }
 .top-details{
     width: 582px;
@@ -30,7 +32,7 @@ p{
     margin: 0px;
     font-size: 16px;
 }
-button{
+.preebook-now{
     margin: 0px;
     font-size: 16px;
     Width:196px;
@@ -38,7 +40,7 @@ button{
     border-radius:41px;
     background-color:#E02C6D ;
 }
-a{
+a, .fa-arrow-right{
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -46,6 +48,7 @@ a{
 .top-img{
     width: 475px;
     height: 475px;
+    /* margin-right: 165px; */
 }
 .top-img img{
     width: 440px;
@@ -53,10 +56,15 @@ a{
     padding: 30px;
     padding-left: 0px
 }
+.section-2{
+    margin: 120px;
+}
 .section-2 h2{
     text-align: center;
 }
 .popular-section{
+    margin-left: 196px;
+    margin-right: 196px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -69,10 +77,98 @@ a{
 }
 .collection{
     width: 329px;
-    height: 476px;
-    border: 2px solid coral;
+    height: 450px;
+    /* border: 2px solid coral; */
+    border-radius: 5px;
     margin: 30px;
+    box-shadow: 8px 8px 15px 8px #adabab
 }
 .collection-detail{
     padding: 15px;
+    padding-bottom: 20px;
 }
+.collection-detail h3{
+    margin: 0;
+}
+.price{
+    font-family:'Inter', sans-serif ;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 150%;
+}
+.rating{
+    font-size: 12px;
+}
+.fa-star, .fa-star-half-alt{
+    color:#FB8200 ;
+}
+.rating span{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.additional-detail{
+    width: 196px;
+    height: 60px;
+    padding: 10px 0 10px 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+}
+.see-more{
+    font-family: 'Poppins', sans-serif;
+    color: #E02C6D;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    /* margin-right: 120px; */
+}
+.see-more>.fa-arrow-right{
+    color:#E02C6D ;
+}
+.section-3>h2{
+    text-align: center;
+    margin: 0px;
+}
+.bonus-section{
+    border: 2px solid #E02C6D;
+    height: 400px;
+    margin: 120px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.bonus-section1, .bonus-section2, .bonus-section3{
+    margin: 50px;
+    border: 2px dashed #E02C6D;
+    height: 300px;
+    width: 800px;
+}
+footer{
+    color: white;
+    padding: 50px;
+    text-align: center;
+    background-color:#0A0826 ;
+}
+.social-icon{
+    padding: 10px;
+}
+.fa-facebook-f, .fa-youtube, .fa-instagram, .fa-linkedin-in{
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+    background-color: rgba(134, 134, 134, 0.144);
+}
+.fa-facebook-f{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.fa-youtube{
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
